@@ -1,0 +1,86 @@
+.navigation-wrapper{
+
+    background:lightblue;
+}
+
+.navigation {
+
+    height:3rem;
+    width:90%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+.link_first {
+    margin-left: 1rem;
+}
+
+
+.second-navigation-half a{
+    text-decoration:none;
+    margin-left:1rem;
+
+}
+
+Link {
+    text-decoration: none;
+}
+
+.first-navigation-half{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    text-decoration:none;
+}
+
+.third-navigation-half {
+    display: flex;
+    align-items: center;
+}
+
+.third-navigation-half h6{
+   margin-right:1.5rem;
+   font-size: 1.3rem;
+}
+
+.third-navigation-half  button {
+  margin-left:1em;
+}
+
+.navigation h2{
+    font-size:3rem;
+}
+
+.none{
+    display: none;
+}
+
+.dropdown {
+    margin-right: 2rem;
+    margin-left:2rem;
+}
+
+
+
+/* .logout {
+border: 1px solid  whitesmoke;
+border-radius: 10%;
+background-color: lightblue;
+color: yellow;
+}
+
+.logout:hover {
+    background-color: yellow;
+    color: black;
+} */
+
+/* .navigation .first-section {
+
+}
+
+.navigation .second-section{
+
+} */
