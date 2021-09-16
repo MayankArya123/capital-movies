@@ -315,15 +315,15 @@ const GetMovies=  (e)=>{
       console.log('error from backend ',err)
 
 
-      // alert('please login to see all favourites movies')
+      alert('please login to see all favourites movies or  your LoggedIn time is expired please login again ')
 
-      setTimeout(function(){
-        console.log("Hello World");
-        window.location.reload();
-    }, 1000);
-       setLoginMessage('your LoggedIn time is expired please login again or might there is a error in the database please login again')
+    //   setTimeout(function(){
+    //     console.log("Hello World");
+    //     window.location.reload();
+    // }, 1000);
+    //    setLoginMessage('your LoggedIn time is expired please login again or might there is a error in the database please login again')
     
-       setRedirectFlag2(true)
+    //    setRedirectFlag2(true)
 
 
     })
